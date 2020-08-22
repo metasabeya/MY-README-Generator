@@ -1,0 +1,24 @@
+{
+  "name": "README-Generator",
+  "version": "1.0.0",
+  "description": "- # [Description](#description) - # [Usage](#usage) - # [Contributor](#contributor) - # [Test](#test) - # [Credits](#credits) - # [License](#Licensse) - # [Questions](#questions) ## Description: ![license](https://img.shields.io/badge/License-MIT,ISC,GNU GPLv3,Apache-blue.svg \"License Badge\")",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metasabeya/README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metasabeya/README-Generator/issues"
+  },
+  "homepage": "https://github.com/metasabeya/README-Generator#readme"
+}

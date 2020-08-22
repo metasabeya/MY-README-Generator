@@ -53,7 +53,7 @@ function promptUser() {
             {
                 type: "Input",
                 message: "whose credit is this work?",
-                name: "credit"
+                name: "credits"
             },
             {
                 type: "input",
@@ -67,9 +67,10 @@ function promptUser() {
             },
             {
                 type: "input",
-                message: "write the URL of your github profile picture",
+                message: "insert the url of the picture which you want to make it profile",
                 name: "picture"
             },
+            
     
         ]);
     
@@ -92,5 +93,7 @@ const init = async() => {
 
 init();
     
+
+
      
   
