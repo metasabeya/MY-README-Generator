@@ -5,7 +5,10 @@ const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //function that can creat array of questions
- const  promptUser = () => {
+
+
+
+const promptUser = () => {
     return inquirer.prompt([
         {
         type: "input",
@@ -29,7 +32,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
         },
         {
            type: "input",
-           message: "what are the test instgructions?",
+           message: "what are the test instructions?",
            name: "test" 
         },
         {
@@ -64,12 +67,13 @@ const writeFileAsync = util.promisify(fs.writeFile);
             name: "picture"
         },
 
-    ]);
+    ])
 
-}
+};
 
-  function generateReadME(response) {
+  const generateMarkdown = (data) => {
       return `
+   # ${data.title}
 
     
 
@@ -80,52 +84,54 @@ const writeFileAsync = util.promisify(fs.writeFile);
     -[usage](#usage)
     -[contributor](#contributor)
     -[test](#test)
-    -[credit](#credit)
+    -[credits](#credits)
     -[License](#Licensse)
     -[questions](#questions)
 
     ## Description:
-    ![license](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+    ![license](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
 
-    ${response.description}
+    ${data.description}
 
     ## Installation:
-    ${response.installation}
+    ${data.installation}
     ## Usage:
-    ${response.usage}
+    ${data.usage}
     ## TEst:
-    ${response.test}
+    ${data.test}
     ## Credits:
-    ${response.credit}
+    ${data.credits}
     ## License:
-    ${response.license}
+    
 
-    -For more Detail, please click the link. [license](https://opensource.org/license/${response.license})
+    -For more Detail, please click the link. [license](https://opensource.org/license/${data.license})
 
    ## Questions:
-   for questions about the gewnerator you can gon to my GitHub page at the next link provided
-   -[Github Profile](https://github.com/${response.username})
+   for questions about the generator you can go to my GitHub page using the next link provided
+   -[Github Profile](https://github.com/${data.username})
 
 
-   if you have any questions you can reach out to my email address: ${response.email}.
+   if you have any questions you can reach out to my email address: ${data.email}.
 
 
 `;
   }
     //to initialize the program
 
-    async function init() {
+  const init =  async() => {
         try {
-            const response = await promptUser();
+            const data = await promptUser();
 
-            const readMe = generateReadMe(response);
+            const readMe = generateMarkdown(data);
 
             await writeFileAsync("README.md", readMe);
+
             console.log("success!");
-        }catch (err) {
+
+        } catch (err) {
             console.log(err);
         }
-    }
+    };
 
     //to call to initialize the program
 
@@ -135,21 +141,3 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 
 
-
-
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
