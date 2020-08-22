@@ -1,24 +1,23 @@
 {
-  "name": "README-Generator",
+  "name": "MY-README-Generator",
   "version": "1.0.0",
-  "description": "- # [Description](#description) - # [Usage](#usage) - # [Contributor](#contributor) - # [Test](#test) - # [Credits](#credits) - # [License](#Licensse) - # [Questions](#questions) ## Description: ![license](https://img.shields.io/badge/License-MIT,ISC,GNU GPLv3,Apache-blue.svg \"License Badge\")",
+  "description": "- # [Description](#description)\r - # [Usage](#usage)\r - # [Contributor](#contributor)\r - # [Test](#test)\r - # [Credits](#credits)\r - # [License](#License)\r - # [Badge](#badge)\r - # [Email](#email)\r - # [Picture](#picture)\r - # [Questions](#questions)",
   "main": "index.js",
-  "dependencies": {
-    "inquirer": "^7.3.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metasabeya/README-Generator.git"
+    "url": "git+https://github.com/metasabeya/MY-README-Generator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/metasabeya/README-Generator/issues"
+    "url": "https://github.com/metasabeya/MY-README-Generator/issues"
   },
-  "homepage": "https://github.com/metasabeya/README-Generator#readme"
+  "homepage": "https://github.com/metasabeya/MY-README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }

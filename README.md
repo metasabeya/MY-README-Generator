@@ -1,4 +1,4 @@
-# project title: nvvb
+# project title: My ReadMe Generator
   
   
 #  Table of contents  
@@ -14,29 +14,29 @@
 - # [Questions](#questions)
 
 ## Description:
-![license](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+![license](https://img.shields.io/badge/License-Apache-blue.svg "License Badge")
 
-  cvv
+  it uses node.js
 ## Installation:
-  vvvvv
+  run node.js
 ## Contributor:
-  vvvv
+  metasabeya ketsela
 ## Test:
-v
+npm run test
 ## Credits:
-vvv
+mine
 ## License:
 
 -For more Detail, please click the link. 
 
-[license](https://opensource.org/license/MIT)
+[license](https://opensource.org/license/Apache)
 
 ## Badge:
 
-![badmath](https://img.shields.io/github/repo-font/vvvvvvv/nvvb)
+![badmath](https://img.shields.io/github/repo-font/metasabeya/My ReadMe Generator)
 
 ## Picture:
-[profile picture]()
+[profile picture](https://avatars1.githubusercontent.com/u/65740871?s=460&u=46ab0ca2fd50e6c5e8503d832e35e845d7b41dcf&v=4)
 
 ## Questions:
 for questions about the generator you can go to my GitHub page using the next link provided
