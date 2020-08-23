@@ -1,4 +1,4 @@
-# project title: My ReadMe Generator
+# project title: readme generator
   
   
 #  Table of contents  
@@ -14,29 +14,29 @@
 - # [Questions](#questions)
 
 ## Description:
-![license](https://img.shields.io/badge/License-Apache-blue.svg "License Badge")
+![license](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
   it uses node.js
 ## Installation:
-  run node.js
+  run npm i
 ## Contributor:
-  metasabeya ketsela
+  metasabeya
 ## Test:
-npm run test
+run npm tes
 ## Credits:
-mine
+metasabeya
 ## License:
 
 -For more Detail, please click the link. 
 
-[license](https://opensource.org/license/Apache)
+[license](https://opensource.org/license/MIT)
 
 ## Badge:
 
-![badmath](https://img.shields.io/github/repo-font/metasabeya/My ReadMe Generator)
+![badmath](https://img.shields.io/github/repo-font/metasabeya/readme generator)
 
 ## Picture:
-[profile picture](https://avatars1.githubusercontent.com/u/65740871?s=460&u=46ab0ca2fd50e6c5e8503d832e35e845d7b41dcf&v=4)
+[profile picture]()
 
 ## Questions:
 for questions about the generator you can go to my GitHub page using the next link provided
